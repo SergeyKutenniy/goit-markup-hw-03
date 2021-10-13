@@ -1,0 +1,217 @@
+/* основной текст #212121 */
+
+/* вторичный текст #757575 */
+
+/* акцент #2196F3 */
+
+/* белый цвет #ffffff */
+
+/* цвет контактов в футере rgba(255, 255, 255, 0.6) */
+
+/* вторичный цвет фона #2F303A */
+
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-title-color: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.page {
+  color: var(--main-text-color);
+  background-color: #ffffff;
+  font-family: roboto, sans-serif;
+}
+
+.logo-link {
+  color: #000;
+  text-decoration: none;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* site-nav */
+.site-nav-link {
+  color: var(--main-text-color);
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .current {
+  color: var(--accent-color);
+}
+
+/* auth-nav */
+.auth-nav-link,
+.section-text {
+  color: var(--secondary-text-color);
+}
+.auth-nav-link:hover,
+.auth-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav,
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* Логотип */
+.web {
+  color: var(--accent-color);
+}
+.logo:focus {
+}
+
+/* Цвет фона */
+.backround-hero,
+.backround-footer {
+  background-color: #2f303a;
+}
+
+/* Заголовки */
+.primary-title {
+  color: var(--primary-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* Наши качества */
+.section-qualities {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-text,
+.footer-contacts {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Наша коммнда */
+.team-human {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Адрес */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address,
+.footer-logo {
+  color: #ffffff;
+}
+
+/* Цвет контактов в футере */
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Основная кнопка */
+.button-primary {
+  color: #fff;
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background-color: #188ce8;
+}
+
+/* Радиокнопка (филтер) */
+.button-filter {
+  color: var(--main-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+  color: #fff;
+  background-color: var(--accent-color);
+}
+
+/* Примеры проэктов */
+.section-title {
+  color: var(--main-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.section-filter {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+/* Заголовки h2 на главной странице */
+.working {
+  text-align: center;
+}
