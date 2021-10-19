@@ -85,9 +85,12 @@ img {
   align-items: center;
 }
 
+.border {
+  border-bottom: 1px solid #ececec;
+}
+
 .main-nav-portfolio {
   display: flex;
-  border-bottom: 1px solid #ececec;
 }
 
 /* site-nav */
@@ -162,10 +165,14 @@ img {
 .backround-hero,
 .backround-footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .hero {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 /* Скрытый заголвок */
@@ -184,8 +191,6 @@ img {
 
 /* Основные заголовки */
 .primary-title {
-  padding-top: 200px;
-  margin-top: 0px;
   margin-bottom: 30px;
 
   color: var(--primary-title-color);
@@ -236,16 +241,14 @@ img {
 
 /* Чем мы занимаемся */
 .work {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 /* Наша команда */
 .team {
   background-color: #f5f4fa;
-}
-
-.our-team {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-human {
@@ -281,10 +284,6 @@ img {
   margin-right: 0;
 }
 
-.card-human {
-  padding-bottom: 94px;
-}
-
 /* Футер Адрес */
 .address {
   font-style: normal;
@@ -302,7 +301,6 @@ img {
 
 .logo {
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -324,7 +322,6 @@ img {
 
 .contacts {
   list-style: none;
-  padding-bottom: 60px;
 }
 
 /* Цвет контактов в футере */
@@ -355,8 +352,9 @@ img {
   background-color: #188ce8;
 }
 
-.main-button {
-  padding-bottom: 200px;
+.project-filter {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 /* Радиокнопка (филтер) */
@@ -390,8 +388,6 @@ img {
   letter-spacing: 0.06em;
 
   margin-bottom: 4px;
-  padding-top: 20px;
-  padding-left: 24px;
 }
 
 .section-filter {
@@ -399,15 +395,16 @@ img {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
 
 .discr-flex-element {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 /* Чем мы занимаемся */
@@ -424,7 +421,6 @@ img {
   justify-content: center;
 
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .flex-element {
@@ -433,10 +429,6 @@ img {
   flex-basis: calc(100% - 60px) / 3;
   margin-right: 30px;
   margin-bottom: 30px;
-}
-
-.list-flex {
-  padding-bottom: 94px;
 }
 
 .flex-element:nth-child(3n) {
