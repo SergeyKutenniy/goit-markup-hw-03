@@ -251,6 +251,11 @@ img {
   padding-bottom: 94px;
 }
 
+.description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-human {
   font-weight: 500;
   font-size: 16px;
@@ -258,7 +263,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
 
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -268,7 +272,6 @@ img {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
 }
 
 .card {
@@ -397,7 +400,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.discr-flex-element {
+.descr-flex-element {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
